@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.savan.cloud.Login"
+    android:background="#ff000000">
+
+    <View
+            android:id="@+id/anchor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp" />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:padding="20px"
+            android:gravity="center"
+            android:id="@+id/textView1"
+            android:textColor="#FFF"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:editable="true"
+            android:enabled="true"
+            android:inputType="text"
+            android:hint="@string/editTextUName"
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:textIsSelectable="true"
+            android:textStyle="normal"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/editText2" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/editText2"
+            android:textIsSelectable="true"
+            android:textStyle="normal"
+            android:hint="@string/editTextPwd"
+            android:password="true"
+            android:enabled="true"
+            android:editable="true"
+            android:clickable="true"
+            android:background="#FFF"
+            android:textSize="15sp"
+            android:numeric="integer"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:layout_above="@+id/anchor" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSignIn"
+            android:id="@+id/button1"
+            android:background="#ff008080"
+            android:textColor="#ff00ffff"
+            android:layout_below="@+id/anchor" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Registeration"
+            android:id="@+id/textView2"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/button1" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSignUp"
+            android:id="@+id/button2"
+            android:background="#ff007050"
+            android:textColor="#ff00e0a0"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView2" />
+
+</RelativeLayout>

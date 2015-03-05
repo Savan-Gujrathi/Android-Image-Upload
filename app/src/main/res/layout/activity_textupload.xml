@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.savan.cloud.TextUpload"
+    android:background="#ff000000">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_marginTop="172dp"
+        android:editable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:hint="Enter Vehicle Number"
+        android:background="#ffffffff"
+        android:singleLine="true"
+        android:textStyle="normal|bold"
+        android:textSize="25dp"
+        android:capitalize="words"
+        android:inputType="number|textCapWords|textCapCharacters"
+        android:numeric="integer"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button7"
+        android:background="@android:color/holo_green_light"
+        android:clickable="true"
+        android:enabled="true"
+        android:gravity="center"
+        android:width="100dp"
+        android:typeface="serif"
+        android:layout_marginTop="67dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

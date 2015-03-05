@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.savan.cloud.Menu"
+    android:background="#ff000000" >
+
+
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:text="Take Picture"
+        android:id="@+id/button1"
+        android:background="#ff008080"
+        android:textColor="#ff00ffff"
+        android:layout_above="@+id/anchor"
+        android:layout_toLeftOf="@+id/anchor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:text="Select from Gallery"
+        android:id="@+id/button2"
+        android:background="#ff008080"
+        android:textColor="#ff00ffff"
+        android:layout_above="@+id/anchor"
+        android:layout_toRightOf="@+id/anchor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:text="Upload Text"
+        android:id="@+id/button3"
+        android:background="#ff008080"
+        android:textColor="#ff00ffff"
+        android:layout_below="@+id/anchor"
+        android:layout_toLeftOf="@+id/anchor"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:text="Log Out"
+        android:id="@+id/button4"
+        android:background="#660000"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/anchor"
+        android:layout_toRightOf="@+id/anchor"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

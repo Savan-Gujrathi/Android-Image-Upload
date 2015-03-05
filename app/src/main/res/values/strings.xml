@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_otp">OTP</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_textupload">Upload Text</string>
+    <string name="title_activity_imageupload">Upload Image</string>
+    <string name="title_activity_signup">Sign Up</string>
+
+    <string name="app_name">InstaPolice</string>
+    <string name="buttonSignIn">Sign In</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="buttonCont">Continue</string>
+    <string name="editTextUName">Username</string>
+    <string name="editTextPwd">Password</string>
+    <string name="editTextOTP">Enter OTP</string>
+    <string name="txtViewNoAcc">&lt;u>Registeration&lt;/u></string>
+    <string name="textViewOTP">You will receive a One Time Verification code shortly!</string>
+    <string name="textViewTimeOut">This operation will timeout when the countdown ends.</string>
+    <string name="textViewMsg">Enter the OTP followed by your registered password.</string>
+    <string name="textHintOTP">OTP-Password</string>
+</resources>
